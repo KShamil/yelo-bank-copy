@@ -1,0 +1,128 @@
+.yellowHeaderBtn {
+    width: 175px;
+    height: 55px;
+    padding: 9px 25px;
+    background-color: var(--yellow);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    color: var(--black);
+    transition: all 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+.yellowHeaderBtn:hover {
+    background-color: var(--black);
+    color: #FFFFFF;
+}
+
+.circleHeaderBtn {
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+    border: 1px solid var(--yellow);
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.circleHeaderBtn:hover {
+    background-color: var(--black);
+    border: 1px solid var(--black);
+}
+
+.burgerBtn {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sliderBtn {
+    width: 245px;
+    height: 60px;
+    border: none;
+    background-color: var(--black);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+    transform: skew(-14deg, 0);
+    padding: 15px 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.sliderBtn:hover {
+    background-color: #FFFFFF;
+    color: var(--black);
+}
+
+.yeloLightBtn {
+    width: 200px;
+    min-height: 55px;
+    padding: 13px 25px;
+    background: var(--yellow);
+    border: none;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.yeloLightBtn:hover {
+    color: #FFFFFF;
+    background: var(--black);
+}
+
+.calcBtn {
+    width: 166px;
+    min-height: 55px;
+    padding: 13px 25px;
+    background: var(--yellow);
+    border: none;
+    border-radius: 10px;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.calcBtn:hover {
+    color: #FFFFFF;
+    background: var(--black);
+}
+
+.allNewsBtn {
+    width: 171px;
+    min-height: 48px;
+    border-radius: 6px;
+    color: #0091FE;
+    border: 1px solid #0091FE;
+    background: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.allNewsBtn:hover {
+    background: #0091FE;
+    color: #FFFFFF;
+}

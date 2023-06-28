@@ -1,0 +1,35 @@
+.wrapper {
+    position: relative;
+    width: 346px;
+    height: 140px;
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.badge {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    padding: 3px 12px;
+    background: #FFFFFF;
+    font-size: 12px;
+    border-radius: 20px;
+    border: none;
+}
+
+.wrapper p {
+    position: absolute;
+    left: 20px;
+    top: 45px;
+    width: 50%;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

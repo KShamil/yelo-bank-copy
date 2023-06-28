@@ -1,0 +1,130 @@
+.wrapper {
+    width: 535px;
+    height: 301px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icon {
+    font-size: 30px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    gap: 10px;
+    color: #0091FE;
+}
+
+.middle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+
+.cell:nth-child(3) {
+    border-top-right-radius: 10px;
+}
+
+.cell {
+    width: 100%;
+    position: relative;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #E7E7E7;
+}
+
+.cell input {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    accent-color: var(--yellow);
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.info span {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+.info b {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 50px;
+}
+
+.left span {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+.left b {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.valute {
+    font-weight: bold;
+    color: var(--black) !important;
+    font-size: 15px !important;
+}

@@ -1,0 +1,99 @@
+.wrapper {
+    position: fixed;
+    width: 100%;
+    min-height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    border-top: 1px solid lightgray;
+    z-index: 100;
+    transition: 0.3s all;
+}
+
+.scrolledWrapper {
+    position: fixed;
+    width: 100%;
+    min-height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    border-top: 1px solid lightgray;
+    z-index: 100;
+    transform: translateY(-45px);
+    background: #FFFFFF;
+}
+
+.container {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.logoIcon {
+    width: 144px;
+    height: 60px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.link {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    height: 3px;
+    background: var(--black);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.span {
+    width: 17px;
+    height: 2px;
+    background-color: var(--black);
+}
+
+.icon {
+    transition: 0.3s all;
+}
+
+.btn:hover .icon {
+    --header-icon-color:#FFFFFF;
+}

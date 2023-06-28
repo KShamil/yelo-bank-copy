@@ -1,0 +1,126 @@
+.wrapper {
+    width: 346px;
+    height: 390px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ECECEC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.converter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.sell {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--yellow);
+    padding-bottom: 10px;
+}
+
+.buy {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--yellow);
+    padding-bottom: 10px;
+}
+
+.sell input,
+.buy input {
+    width: 50%;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sell input[type="number"]::-webkit-inner-spin-button,
+.buy input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+
+.sell input:focus,
+.buy input:focus {
+    outline: none;
+}
+
+.sell select,
+.buy select {
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sell select:focus,
+.buy select:focus {
+    outline: none;
+}
+
+.table {
+    width: 100%;
+}
+
+.table th {
+    text-align: start;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+}
+
+.table td {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.table table {
+    width: 100%;
+}
+
+.linkBody {
+    width: 100%;
+    border-top: 1px solid #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #0091FE;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 30px;
+}

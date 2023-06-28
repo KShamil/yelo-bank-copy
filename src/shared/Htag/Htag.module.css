@@ -1,0 +1,25 @@
+.h1 {
+    font-size: 40px;
+    color: var(--black);
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.h2 {
+    font-size: 25px;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.yeloAppTitle {
+    font-size: 34px;
+    color: var(--black);
+    margin-bottom: 10px;
+}
