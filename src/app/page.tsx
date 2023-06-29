@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import { Metadata } from "next";
 import { Stories } from "@/widgets/Stories/Stories";
@@ -9,7 +8,7 @@ import { Hero } from "@/widgets/Hero/Hero";
 import { Useful } from "@/widgets/Useful/Useful";
 
 export const metadata: Metadata = {
-  title: "Yellow Bank - Muasir Bank Xidmətləri",
+  title: "Yelo Bank - Muasir Bank Xidmətləri",
 };
 
 export default function Home() {
