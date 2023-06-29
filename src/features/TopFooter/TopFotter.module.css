@@ -43,3 +43,10 @@
 .link:hover {
     border-bottom: 2px solid rgba(0,0,0, .5);
 }
+
+@media screen and (max-width:1125px) {
+    .wrapper {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}

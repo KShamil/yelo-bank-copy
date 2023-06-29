@@ -97,3 +97,19 @@
 .btn:hover .icon {
     --header-icon-color:#FFFFFF;
 }
+
+
+@media screen and (max-width:992px) {
+    .wrapper {
+        background: #FFFFFF;
+    }
+
+    .logoIcon {
+        width: 94px;
+        height: 36px;
+    }
+
+    .list {
+        display: none;
+    }
+}

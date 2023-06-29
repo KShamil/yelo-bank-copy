@@ -124,3 +124,10 @@
 .icon {
     font-size: 30px;
 }
+
+
+@media screen and (max-width:992px) {
+    .wrapper {
+        width: 100%;
+    }
+}

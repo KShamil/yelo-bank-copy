@@ -107,3 +107,33 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width:992px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .mobileApp {
+        width: 100%;
+        position: inherit;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .wrapper {
+        padding: 10px;
+    }
+
+    .mobileApp {
+        height: auto;
+        flex-direction: column;
+    }
+}

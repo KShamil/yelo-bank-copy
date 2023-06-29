@@ -54,3 +54,16 @@
     cursor: pointer;
 }
 
+
+@media screen and (max-width:1125px) {
+    .wrapper {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .info {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

@@ -128,3 +128,32 @@
     color: var(--black) !important;
     font-size: 15px !important;
 }
+
+@media screen and (max-width:992px) {
+    .wrapper {
+        width: 100%;
+        min-height: 301px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .wrapper {
+        height: auto;
+        gap: 20px;
+    }
+
+    .calculator {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        margin-left: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .right {
+        width: 100%;
+    }
+}

@@ -85,3 +85,20 @@
     height: 2px;
     background: var(--yellow);
 }
+
+
+@media screen and (max-width:992px) {
+    .list li:nth-child(2) {
+        display: none;
+    }
+
+    .list {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .list li:nth-child(1) {
+        display: none;
+    }
+}

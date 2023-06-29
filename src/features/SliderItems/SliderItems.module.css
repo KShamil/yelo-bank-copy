@@ -24,8 +24,6 @@
     gap: 60px;
     padding-top: 150px;
     padding-left: 210px;
-
-
 }
 
 .info {
@@ -56,7 +54,7 @@
 }
 
 .icon {
-    --icon-color:var(--black);
+    --icon-color: var(--black);
     font-size: 30px;
     transition: 0.3s all;
 }
@@ -71,4 +69,39 @@
     width: 100%;
     height: 458px;
     object-fit: cover;
+}
+
+
+@media screen and (max-width:992px) {
+    .container {
+        flex-direction: column-reverse;
+
+    }
+
+    .left {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .right {
+        width: 100%;
+        clip-path: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .img {
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .left {
+        justify-content: center;
+        align-items:center;
+    }
+
+    .info {
+        justify-content: center;
+        align-items: center;
+    }
 }

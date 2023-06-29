@@ -44,3 +44,9 @@
     align-items: stretch;
     gap: 20px;
 }
+
+@media screen and (max-width:992px) {
+    .stories {
+        flex-direction: column;
+    }
+}

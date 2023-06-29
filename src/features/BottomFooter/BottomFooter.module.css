@@ -62,3 +62,20 @@
 .autor strong {
     text-decoration: underline;
 }
+
+
+@media screen and (max-width:1125px) {
+    .wrapper {
+        width: 100%;
+    }
+    .info {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .list {
+        flex-wrap: wrap;
+    }
+}
+

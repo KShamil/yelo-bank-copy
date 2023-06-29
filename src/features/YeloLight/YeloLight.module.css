@@ -1,4 +1,5 @@
 .wrapper {
+    position: relative;
     width: 505px;
     height: 303px;
     background: #F3f1f7;
@@ -86,4 +87,46 @@
 
 .wrapper:hover .image .img {
     transform: translateY(0);
+}
+
+@media screen and (max-width:992px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .wrapper {
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 15px;
+        padding-bottom: 30px;
+    }
+
+    .image {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        transform: skewX(15deg);
+    }
+
+    .info {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top {
+        justify-content: center;
+        align-items: center;
+    }
 }
